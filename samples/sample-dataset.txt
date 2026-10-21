@@ -1,0 +1,7 @@
+BC Farmer Water Use Survey
+
+Phone survey of 412 farmers in the Okanagan and Fraser Valley about irrigation practices and water restrictions, conducted 2023-2024. Funded by SSHRC Insight Development Grant.
+
+Files: survey_responses.csv, codebook.pdf, interview_protocol.docx
+
+Responses include farm size, crop type, postal code, and open-ended comments about water licensing.

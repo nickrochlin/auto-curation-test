@@ -1,0 +1,9 @@
+Coastal Kelp Survey Data
+
+This dataset contains kelp canopy measurements collected by kayak at 14 sites along the south coast of Vancouver Island in the summers of 2022 and 2023. Data were collected by J. Moreau and A. Singh (Department of Biology, University of Victoria).
+
+Files:
+- kelp_sites.xlsx - site locations and canopy area
+- Field Notes Final v2.docx - observations from each visit
+
+Variables in kelp_sites.xlsx: site_id, lat, lon, date, canopy_area, temp

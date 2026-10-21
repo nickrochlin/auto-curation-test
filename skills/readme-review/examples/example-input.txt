@@ -1,0 +1,44 @@
+Dataset folder: kelp-survey
+
+== FILES (3) ==
+- README.md (2.1 KB)
+- kelp_sites.csv (14.0 KB)
+- field_photos.zip (52000.0 KB)
+
+== README CHECKS (automated; these counts are exact) ==
+README file(s): README.md | length: 214 words
+Files described in README: 1 of 2
+FLAG: files the README never mentions: field_photos.zip
+kelp_sites.csv: 6 variables | named in README: 5 | named in any documentation: 5
+FLAG: variables in kelp_sites.csv not named in ANY documentation: temp
+
+== README: README.md ==
+# Kelp canopy survey, south Vancouver Island, 2022-2023
+
+Collected by J. Moreau and A. Singh, Department of Biology, University of Victoria.
+Questions: j.moreau@example.ca
+
+Kelp canopy was measured by kayak at 14 sites between June and August of 2022 and 2023.
+Canopy area was estimated by paddling the perimeter of each bed with a handheld GPS.
+
+License: CC BY 4.0
+
+## Files
+kelp_sites.csv - one row per site visit.
+
+## Variables
+- site_id: site code (KS01 to KS14)
+- lat, lon: site location (decimal degrees)
+- date: visit date
+- canopy_area: area of the kelp bed
+
+== DATA FILE PROFILE: kelp_sites.csv ==
+Every row was read. Rows: 112 | Columns: 6 | Rows with the wrong number of fields: 0 | Blank rows: 0
+Columns:
+- site_id: text, missing 0 (0%), distinct values 14, values: KS01 (8), KS02 (8), KS03 (8)
+- lat: decimal, missing 0 (0%), distinct values 14, range 48.3 to 48.6
+- lon: decimal, missing 0 (0%), distinct values 14, range -124.1 to -123.3
+- date: date, missing 0 (0%), distinct values 40
+- canopy_area: decimal, missing 6 (5%), distinct values 101, range -999 to 8450.2
+    FLAG: possible missing-value codes: -999 (4); check they are documented
+- temp: decimal, missing 0 (0%), distinct values 60, range 9.1 to 15.8

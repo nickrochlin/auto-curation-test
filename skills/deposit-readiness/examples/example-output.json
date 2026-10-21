@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "title": "Kelp canopy measurements at 14 sites on the south coast of Vancouver Island, summers 2022-2023",
+    "author": ["J. Moreau (Department of Biology, University of Victoria)", "A. Singh (Department of Biology, University of Victoria)"],
+    "contact": null,
+    "description": "Kelp canopy area measurements recorded by kayak at 14 coastal sites on southern Vancouver Island during the summers of 2022 and 2023, with site coordinates and field observations from each visit.",
+    "subject": ["Earth and Environmental Sciences"],
+    "keywords": ["kelp", "kelp canopy", "Vancouver Island", "coastal ecology", "field survey"],
+    "kind_of_data": "field observations",
+    "time_period": "Summers of 2022 and 2023",
+    "geographic_coverage": "South coast of Vancouver Island, British Columbia",
+    "funder": null
+  },
+  "checklist": [
+    {"item": "readme", "status": "unclear", "reason": "Files are listed but there is no explanation of how they relate or how the data was produced."},
+    {"item": "data_dictionary", "status": "fail", "reason": "Variables are named but have no definitions or units (e.g. canopy_area, temp)."},
+    {"item": "file_formats", "status": "fail", "reason": "Data is in XLSX and notes are in DOCX; CSV and PDF/A or TXT are preferred."},
+    {"item": "file_naming", "status": "fail", "reason": "'Field Notes Final v2.docx' contains spaces and a version label."},
+    {"item": "sensitive_data", "status": "pass", "reason": "Ecological field data with no indication of human participants."},
+    {"item": "indigenous_data", "status": "unclear", "reason": "Sites may be on Indigenous territories; the material does not say whether this was considered."},
+    {"item": "license", "status": "fail", "reason": "No license or terms of use are stated."},
+    {"item": "methods", "status": "unclear", "reason": "Collection by kayak is mentioned, but not how canopy area was measured."},
+    {"item": "funder", "status": "unclear", "reason": "No funding information is given."}
+  ],
+  "missing_info": ["Point of contact email", "Units for canopy_area and temp", "Measurement method for canopy area", "License", "Funding source"],
+  "top_fixes": [
+    "Add definitions and units for every variable.",
+    "Describe how canopy area and temperature were measured.",
+    "Convert kelp_sites.xlsx to CSV and the field notes to PDF/A or TXT, and rename files without spaces.",
+    "State a license and a point of contact."
+  ]
+}
